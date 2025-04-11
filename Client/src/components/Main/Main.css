@@ -1,0 +1,14 @@
+main {
+  margin: 25px;
+  height: 1000px;
+  border: 2px solid rgb(83, 70, 44);
+}
+
+.great-vibes-regular {
+  font-family: "Great Vibes", cursive;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 28px;
+  color: rgb(59, 40, 19);
+  text-shadow: 1px 1px 5px rgb(116, 76, 18);
+}

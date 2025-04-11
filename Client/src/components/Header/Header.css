@@ -1,0 +1,56 @@
+header {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr; /* Гибкое распределение */
+    margin: 25px;
+    height: 80px; /* Фиксированная высота шапки */
+    border: 2px solid rgb(83, 70, 44);
+    align-items: center; /* Центрирование по вертикали для всех элементов */
+}
+
+.fleur-de-leah-regular-header {
+    font-family: "Fleur De Leah", cursive;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 30px;
+    color: rgb(34, 66, 73);
+    text-shadow: 1px 1px 5px rgb(116, 76, 18);
+}
+
+/* Стили для иконок */
+.header-icons {
+    display: flex;
+    justify-content: center; /* Центрирование по горизонтали */
+    align-items: center; /* Центрирование по вертикали */
+    align-self: stretch;
+}
+
+.icon {
+    width: 65px;
+    height: auto;
+    max-height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border-radius: 20px;
+    border:3px solid rgb(34, 66, 73);
+}
+
+.icon img {
+    max-width: 100%;
+    max-height: 100%; /* Ограничение по высоте */
+    object-fit: contain; /* Сохраняет пропорции */
+}
+
+h1 {
+    text-align: center;
+    width: auto;
+    margin: 0;
+}
+
+.header-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
