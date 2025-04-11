@@ -1,10 +1,9 @@
 header {
     display: grid;
-    grid-template-columns: 1fr 2fr 1fr; /* Гибкое распределение */
-    margin: 25px;
-    height: 80px; /* Фиксированная высота шапки */
-    border: 2px solid rgb(83, 70, 44);
-    align-items: center; /* Центрирование по вертикали для всех элементов */
+    grid-template-columns: 1fr 2fr 1fr;margin: 25px;
+    height: 80px;
+    align-items: center; 
+    background-color: rgba(255, 248, 210, 0.322);
 }
 
 .fleur-de-leah-regular-header {

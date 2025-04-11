@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "migrate": "npx sequelize-cli db:migrate",
+  "migrate:reset": "npx sequelize-cli db:migrate:undo:all && npm run migrate",
+  "migrate:fresh": "npx sequelize-cli db:drop && npx sequelize-cli db:create && npm run migrate"
   },
   "keywords": [],
   "author": "",
