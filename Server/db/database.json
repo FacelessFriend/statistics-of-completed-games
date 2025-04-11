@@ -1,0 +1,11 @@
+{
+  "development": {
+    "username": "postgres",
+    "password": "1111",
+    "database": "mygame",
+    "host": "localhost",
+    "port": 5432,
+    "dialect": "postgres",
+    "logging": false
+  }
+}
