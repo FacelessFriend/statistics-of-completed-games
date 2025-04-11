@@ -1,0 +1,1 @@
+# statistics-of-completed-games
